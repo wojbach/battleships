@@ -1,0 +1,26 @@
+{
+    "name": "wojbach/battleships",
+    "description": "Battleships game",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wojciech Bachur",
+            "email": "wojbach@gmail.com"
+        }
+    ],
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.1.0",
+        "winzou/state-machine": "^0.3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Battleship\\": "src/Battleship"
+        }
+    }
+
+}
