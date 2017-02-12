@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: wbachur
- * Date: 12.02.17
- * Time: 17:57
- */
+declare(strict_types = 1);
 
 namespace Battleship;
 
